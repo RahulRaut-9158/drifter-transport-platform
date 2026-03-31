@@ -1,0 +1,21 @@
+# Uploaded user files — ignore contents but keep folder via .gitkeep
+transport/uploads/*
+travel/uploads/*
+courier/uploads/*
+move/uploads/*
+!transport/uploads/.gitkeep
+!travel/uploads/.gitkeep
+!courier/uploads/.gitkeep
+!move/uploads/.gitkeep
+
+# Environment config
+.env
+db_config.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
